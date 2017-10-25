@@ -51,8 +51,6 @@ $(document).ready(function(){
 
 
     // Scroll event
-
-    
     $(document).on('scroll', function(event){
         
         var curScrollTop = $(document).scrollTop();
