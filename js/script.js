@@ -19,9 +19,11 @@ $(document).ready(function(){
     
     // Show main content
     setTimeout(function(){
-        $('.main').show();
+        $('html').css({
+            'overflow': 'scroll'
+        });
         $('.main').animate({
-            opacity: 1
+            'opacity': '1'
         }, 3000);
     }, 3000);
 
