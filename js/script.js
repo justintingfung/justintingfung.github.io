@@ -20,7 +20,7 @@ $(document).ready(function(){
     // Show main content
     setTimeout(function(){
         $('html').css({
-            'overflow': 'scroll'
+            'overflow': 'auto'
         });
         $('.main').animate({
             'opacity': '1'
