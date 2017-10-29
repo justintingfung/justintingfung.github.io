@@ -230,7 +230,7 @@ $(document).ready(function(){
         }, {duration: 1500, easing: 'easeInOutQuad'});
     }
 
-    $('.up').on('click', function(){
+    /*$('.up').on('click', function(){
         switch ($(document).scrollTop()) {
             case $('#sect2').position().top:
                 pageJump('#sect1');
@@ -256,7 +256,7 @@ $(document).ready(function(){
                 pageJump('#sect4');
                 break;
         };
-    })
+    })*/
     
     
 
